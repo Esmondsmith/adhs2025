@@ -933,7 +933,7 @@ h5 a spam {
     Contact Page Sytling
     --------contact form---------
 ---------------------------------------------------------------------------------*/
-#contact {
+#hashtags-section {
     padding: 70px 0 70px
 }
 .banner-text-contents{
@@ -972,7 +972,7 @@ h5 a spam {
     color: #fff;
     transform: translateY(-2px);
 }
-.contact-info {
+.hashtags-section {
     padding: 20px 10px;
     margin: -75px 0 10px;
     border-radius: 25px 25px 0 0;
@@ -989,7 +989,7 @@ h5 a spam {
     color: #256170;
 }
 
-.contact-info-single {
+.hashtags-section-single {
     transition: background 0.5s, transform 0.5s;
     i{
         font-size: 30px;
@@ -999,10 +999,6 @@ h5 a spam {
         margin: 0 0 15px;
     }
 }
-
-/* .contact-info-single:hover {
-    transform: translateY(-3px);
-} */
 
 .contact-form-content {
     border-radius: 0 0 25px 25px;
