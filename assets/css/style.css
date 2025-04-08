@@ -400,7 +400,13 @@ h5 a spam {
     color: #F58735; 
     font-weight: bold; 
   }
+  #video-gallery{
+    padding-bottom: 60px;
+  }
 
+  .tweet-messages-sub-heading{
+    padding-bottom: 20px;
+  }
   #tweet-messages h2::before,#tweet-messages h2::after{
     content: "—";
     margin: 0 5px;
