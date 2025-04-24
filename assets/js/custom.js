@@ -65,53 +65,6 @@
         });
 
         /*---------------------------------------------------
-            About:- show more text
-        ----------------------------------------------------*/
-        $(".read-more-btn").click(function(){
-            $(".hidden-text").slideToggle();
-            const hiddenText = document.querySelector(".hidden-text");
-            if (hiddenText.classList.contains("show-text")) {
-                    hiddenText.classList.remove("show-text");
-                    this.innerHTML = 'Read More <i class="icofont icofont-double-right"></i>';
-                } else {
-                    hiddenText.classList.add("show-text");
-                    this.innerHTML = 'Read Less <i class="icofont icofont-double-left"></i>';
-                }
-        });
-
-        /*---------------------------------------------------
-            Testimonial Carousel
-        ----------------------------------------------------*/
-        $('.testimonial-carousel').owlCarousel({
-            loop: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                768: {
-                    items: 1
-                },
-                991: {
-                    items: 1
-                },
-                1200: {
-                    items: 1
-                },
-                1920: {
-                    items: 1
-                }
-            }
-        });
-
-        /*---------------------------------------------------
-            Counter
-        ----------------------------------------------------*/
-        $('.counter-item span').counterUp({
-            delay: 10, // the delay time in ms
-            time: 1000 // the speed time in ms
-        });
-
-        /*---------------------------------------------------
             Video PopUp
         ----------------------------------------------------*/
         $('.popup-video').magnificPopup({
@@ -152,3 +105,4 @@
     document.getElementById('footerYear').textContent = currentYear;
 
 }(jQuery));
+

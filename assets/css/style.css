@@ -423,6 +423,24 @@ h5 a spam {
     overflow-y: auto;
   }
 
+  .insta-messages-sub-heading {
+    padding-bottom: 20px;
+  }
+  #insta-messages h2::before,#insta-messages h2::after{
+    content: "—";
+    margin: 0 5px;
+    color: #F58735; 
+    font-weight: bold;
+  }
+  .insta-row .card{
+    background-color: #fff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    margin-bottom: 20px;
+    padding: 25px;
+    height: 300px; 
+    overflow-y: auto;
+  }
 
 
 /*-------------------------------------------------------------------------------
@@ -531,7 +549,7 @@ h5 a spam {
                     font-weight: 600;
                 }
         }
-}
+} 
 
 /* .banner-register-btn{
     padding-top: 10px;
@@ -637,3 +655,14 @@ h5 a spam {
       color: #3e88dc;
     }
   }
+
+  #typewriter {
+    font-size: 36px;
+    color: #256170;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #256170;
+    width: fit-content;
+  }
+  
