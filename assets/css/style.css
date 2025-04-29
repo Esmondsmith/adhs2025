@@ -404,10 +404,10 @@ h5 a spam {
     padding-bottom: 62px;
   }
 
-  .tweet-messages-sub-heading{
+  .messages-sub-heading{
     padding-bottom: 20px;
   }
-  #tweet-messages h2::before,#tweet-messages h2::after{
+  .messages-heading h2::before,.messages-heading h2::after{
     content: "—";
     margin: 0 5px;
     color: #F58735; 
@@ -423,17 +423,12 @@ h5 a spam {
     overflow-y: auto;
   }
 
-  #insta-messages{
-    padding-top: 60px;
+  #insta-heading, #linkedin-section{
+    padding-top: 50px;
   }
-  .insta-messages-sub-heading {
-    padding-bottom: 20px;
-  }
-  #insta-messages h2::before,#insta-messages h2::after{
-    content: "—";
-    margin: 0 5px;
-    color: #F58735; 
-    font-weight: bold;
+  .likedin-icon{
+    font-size: 26px;
+    margin-top: -9px;
   }
   .insta-row .card{
     background-color: #fff; 
